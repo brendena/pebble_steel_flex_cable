@@ -1,0 +1,5 @@
+(sym_lib_table
+  (version 7)
+  (lib (name "505551-1620")(type "KiCad")(uri "${KIPRJMOD}/parts/505551-1620/505551-1620.kicad_sym")(options "")(descr ""))
+  (lib (name "IS31FL3199-QFLS2-TR")(type "KiCad")(uri "${KIPRJMOD}/parts/IS31FL3199-QFLS2-TR/IS31FL3199-QFLS2-TR.kicad_sym")(options "")(descr ""))
+)
