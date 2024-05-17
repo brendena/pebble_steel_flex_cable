@@ -3004,6 +3004,18 @@
 		(uuid "6f2251c5-9f70-4a53-ab9f-dd33b7aa297a")
 	)
 	(junction
+		(at 227.33 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "6f861b5e-d5ab-4393-9f9d-7415805c4913")
+	)
+	(junction
+		(at 175.26 134.62)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7ddac7c3-e54a-43c8-a320-af26d0eea142")
+	)
+	(junction
 		(at 101.6 182.88)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -3014,6 +3026,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "816ee065-a450-4f16-8529-8b90b545b1c4")
+	)
+	(junction
+		(at 215.9 93.98)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "841cf0c0-d27a-4283-a457-4070584eea80")
 	)
 	(junction
 		(at 68.58 132.08)
@@ -3127,6 +3145,16 @@
 	)
 	(wire
 		(pts
+			(xy 233.68 93.98) (xy 227.33 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "19d32087-4b0c-4710-bfa0-29ff02238998")
+	)
+	(wire
+		(pts
 			(xy 62.23 143.51) (xy 62.23 132.08)
 		)
 		(stroke
@@ -3184,6 +3212,16 @@
 			(type default)
 		)
 		(uuid "2efaabb6-c0e6-4318-a9d5-4af620e54263")
+	)
+	(wire
+		(pts
+			(xy 227.33 93.98) (xy 215.9 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "313de331-6bf1-453c-87c9-c6234d365441")
 	)
 	(wire
 		(pts
@@ -3447,6 +3485,16 @@
 	)
 	(wire
 		(pts
+			(xy 215.9 93.98) (xy 213.36 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a3ead730-e7e0-4ecf-99a4-a43de78addd2")
+	)
+	(wire
+		(pts
 			(xy 101.6 186.69) (xy 101.6 182.88)
 		)
 		(stroke
@@ -3494,6 +3542,16 @@
 			(type default)
 		)
 		(uuid "bec7e116-d0f4-406f-89a5-88293bdda6ec")
+	)
+	(wire
+		(pts
+			(xy 175.26 134.62) (xy 175.26 137.16)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "beeb9304-bbbf-4b4f-a914-94e467af516e")
 	)
 	(wire
 		(pts
@@ -4323,6 +4381,72 @@
 		)
 	)
 	(symbol
+		(lib_id "power:GND")
+		(at 227.33 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "135e9751-7351-453f-adf2-1833c67f0197")
+		(property "Reference" "#PWR028"
+			(at 227.33 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 227.33 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 227.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 227.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 227.33 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "3fd62682-2b2c-4a3c-86f0-d1183992dc61")
+		)
+		(instances
+			(project "pebble_steel_flex_cable"
+				(path "/c3fdd21d-ec70-4da6-bcf6-5310cbcc3f1c"
+					(reference "#PWR028")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "Device:LED")
 		(at 113.03 58.42 0)
 		(unit 1)
@@ -4940,6 +5064,73 @@
 	)
 	(symbol
 		(lib_id "power:GND")
+		(at 175.26 99.06 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "4310716d-ad7e-4322-bf48-4f8623b1915a")
+		(property "Reference" "#PWR029"
+			(at 168.91 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 99.0599 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "1fe1ad78-6445-4266-aad9-bed89657d9c4")
+		)
+		(instances
+			(project "pebble_steel_flex_cable"
+				(path "/c3fdd21d-ec70-4da6-bcf6-5310cbcc3f1c"
+					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
 		(at 213.36 144.78 90)
 		(unit 1)
 		(exclude_from_sim no)
@@ -5000,6 +5191,72 @@
 			(project "pebble_steel_flex_cable"
 				(path "/c3fdd21d-ec70-4da6-bcf6-5310cbcc3f1c"
 					(reference "#PWR06")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 215.9 86.36 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "493ce80d-1b56-43df-9d36-bebdadc3203f")
+		(property "Reference" "#PWR027"
+			(at 215.9 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 215.9 81.28 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 215.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 215.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 215.9 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "59ec48d2-d342-4bab-ba8c-c03c472e180e")
+		)
+		(instances
+			(project "pebble_steel_flex_cable"
+				(path "/c3fdd21d-ec70-4da6-bcf6-5310cbcc3f1c"
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -5683,73 +5940,6 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 220.98 127 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "6be280ec-db00-4ec4-94ef-ede241009fba")
-		(property "Reference" "#PWR027"
-			(at 217.17 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 224.79 126.9999 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.98 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 220.98 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 220.98 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "ec25e02e-96ef-4da7-a4d7-d0a40922c3fd")
-		)
-		(instances
-			(project "pebble_steel_flex_cable"
-				(path "/c3fdd21d-ec70-4da6-bcf6-5310cbcc3f1c"
-					(reference "#PWR027")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "LED:CLV1L-FKB")
 		(at 111.76 40.64 0)
 		(unit 1)
@@ -6099,7 +6289,7 @@
 	)
 	(symbol
 		(lib_id "power:+3.3V")
-		(at 213.36 93.98 270)
+		(at 233.68 93.98 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -6108,7 +6298,7 @@
 		(fields_autoplaced yes)
 		(uuid "836f5939-93e9-41b4-a327-31d31fe02d65")
 		(property "Reference" "#PWR019"
-			(at 209.55 93.98 0)
+			(at 229.87 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6117,7 +6307,7 @@
 			)
 		)
 		(property "Value" "+3.3V"
-			(at 217.17 93.9799 90)
+			(at 237.49 93.9799 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6126,7 +6316,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 213.36 93.98 0)
+			(at 233.68 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6135,7 +6325,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 213.36 93.98 0)
+			(at 233.68 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6144,7 +6334,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 213.36 93.98 0)
+			(at 233.68 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -6225,73 +6415,6 @@
 			(project "pebble_steel_flex_cable"
 				(path "/c3fdd21d-ec70-4da6-bcf6-5310cbcc3f1c"
 					(reference "#PWR05")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 175.26 99.06 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "90a65543-4f55-4830-86eb-0379dbe74e58")
-		(property "Reference" "#PWR026"
-			(at 179.07 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 171.45 99.0599 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 175.26 99.06 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "82feecf6-9245-47c1-a1ee-227c34cf3e99")
-		)
-		(instances
-			(project "pebble_steel_flex_cable"
-				(path "/c3fdd21d-ec70-4da6-bcf6-5310cbcc3f1c"
-					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -6764,6 +6887,76 @@
 			(project "pebble_steel_flex_cable"
 				(path "/c3fdd21d-ec70-4da6-bcf6-5310cbcc3f1c"
 					(reference "#PWR09")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 215.9 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "ae86d065-2888-459d-8f0d-f3227fb49af8")
+		(property "Reference" "C10"
+			(at 219.71 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C"
+			(at 219.71 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 214.9348 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 215.9 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 215.9 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "d3b2b73b-8c7e-47b4-9110-9efab5eef470")
+		)
+		(pin "1"
+			(uuid "786b516a-cf0e-4436-8f3c-9225e12b856a")
+		)
+		(instances
+			(project "pebble_steel_flex_cable"
+				(path "/c3fdd21d-ec70-4da6-bcf6-5310cbcc3f1c"
+					(reference "C10")
 					(unit 1)
 				)
 			)
@@ -7414,6 +7607,74 @@
 		)
 	)
 	(symbol
+		(lib_id "Device:R")
+		(at 217.17 127 90)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "cb1d618e-9e07-4e5c-9f4a-99b9f5573e86")
+		(property "Reference" "R8"
+			(at 217.17 120.65 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "R"
+			(at 217.17 123.19 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 217.17 128.778 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 217.17 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Resistor"
+			(at 217.17 127 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "738dd393-9ba6-43e3-9522-054f37484786")
+		)
+		(pin "2"
+			(uuid "aaa5dba6-b2e3-4414-804c-05f46ddba068")
+		)
+		(instances
+			(project "pebble_steel_flex_cable"
+				(path "/c3fdd21d-ec70-4da6-bcf6-5310cbcc3f1c"
+					(reference "R8")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
 		(lib_id "power:GND")
 		(at 59.69 139.7 0)
 		(unit 1)
@@ -7480,17 +7741,17 @@
 		)
 	)
 	(symbol
-		(lib_id "power:+3.3V")
-		(at 175.26 137.16 90)
+		(lib_id "power:GND")
+		(at 220.98 127 90)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "d8a30ca9-d34e-43c3-8f83-7aaf5b5b689f")
-		(property "Reference" "#PWR028"
-			(at 179.07 137.16 0)
+		(uuid "d9d3a0af-dd7f-4155-b39a-c8a9f165170a")
+		(property "Reference" "#PWR026"
+			(at 227.33 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7498,17 +7759,17 @@
 				(hide yes)
 			)
 		)
-		(property "Value" "+3.3V"
-			(at 171.45 137.1601 90)
+		(property "Value" "GND"
+			(at 224.79 126.9999 90)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Footprint" ""
-			(at 175.26 137.16 0)
+			(at 220.98 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7517,7 +7778,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 175.26 137.16 0)
+			(at 220.98 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7525,8 +7786,8 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 175.26 137.16 0)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 220.98 127 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -7535,12 +7796,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "c1fc7565-4c76-400b-ad3d-2ac4690cf56c")
+			(uuid "5446785f-d73b-4a64-8624-e6d1cef21373")
 		)
 		(instances
 			(project "pebble_steel_flex_cable"
 				(path "/c3fdd21d-ec70-4da6-bcf6-5310cbcc3f1c"
-					(reference "#PWR028")
+					(reference "#PWR026")
 					(unit 1)
 				)
 			)
@@ -7673,73 +7934,6 @@
 			(project "pebble_steel_flex_cable"
 				(path "/c3fdd21d-ec70-4da6-bcf6-5310cbcc3f1c"
 					(reference "#PWR018")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "power:+3.3V")
-		(at 175.26 134.62 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e617d436-e569-4d80-9f08-a2c37cb3bbba")
-		(property "Reference" "#PWR024"
-			(at 179.07 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Value" "+3.3V"
-			(at 171.45 134.6199 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" ""
-			(at 175.26 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" ""
-			(at 175.26 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Power symbol creates a global label with name \"+3.3V\""
-			(at 175.26 134.62 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "1"
-			(uuid "5a1d98e9-7c75-4ea5-80a5-aa3fab069f72")
-		)
-		(instances
-			(project "pebble_steel_flex_cable"
-				(path "/c3fdd21d-ec70-4da6-bcf6-5310cbcc3f1c"
-					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -7882,74 +8076,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:C")
-		(at 217.17 127 90)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "e9a7f63e-aecd-464d-ab6b-bbc3e8bfb3b2")
-		(property "Reference" "C8"
-			(at 217.17 119.38 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "C"
-			(at 217.17 121.92 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 220.98 126.0348 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "~"
-			(at 217.17 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 217.17 127 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "bfd30830-ecbf-40a4-ab96-1e453fd467bd")
-		)
-		(pin "1"
-			(uuid "68c74b23-1d05-49d2-98d1-9a1dc8350b19")
-		)
-		(instances
-			(project "pebble_steel_flex_cable"
-				(path "/c3fdd21d-ec70-4da6-bcf6-5310cbcc3f1c"
-					(reference "C8")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "power:+5V")
 		(at 109.22 170.18 180)
 		(unit 1)
@@ -8009,6 +8135,73 @@
 			(project "pebble_steel_flex_cable"
 				(path "/c3fdd21d-ec70-4da6-bcf6-5310cbcc3f1c"
 					(reference "#PWR08")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "power:GND")
+		(at 175.26 134.62 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "f5e567c5-6b8d-421d-8126-f00d4978ef50")
+		(property "Reference" "#PWR024"
+			(at 168.91 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Value" "GND"
+			(at 171.45 134.6199 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 175.26 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" ""
+			(at 175.26 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 175.26 134.62 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "50f93552-52d9-4cbc-849a-f09722666f5d")
+		)
+		(instances
+			(project "pebble_steel_flex_cable"
+				(path "/c3fdd21d-ec70-4da6-bcf6-5310cbcc3f1c"
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -8143,6 +8336,76 @@
 			(project "pebble_steel_flex_cable"
 				(path "/c3fdd21d-ec70-4da6-bcf6-5310cbcc3f1c"
 					(reference "#PWR012")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Device:C")
+		(at 227.33 90.17 180)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "feb135bf-b7f3-4922-ac4e-8f028362cc3e")
+		(property "Reference" "C11"
+			(at 231.14 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Value" "C"
+			(at 231.14 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+		(property "Footprint" ""
+			(at 226.3648 86.36 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 227.33 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Unpolarized capacitor"
+			(at 227.33 90.17 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "9b3debc2-9cd6-40ce-b31a-a0b9819b7be6")
+		)
+		(pin "1"
+			(uuid "48851301-188d-48ed-9ca5-08460fee0189")
+		)
+		(instances
+			(project "pebble_steel_flex_cable"
+				(path "/c3fdd21d-ec70-4da6-bcf6-5310cbcc3f1c"
+					(reference "C11")
 					(unit 1)
 				)
 			)
