@@ -37,7 +37,15 @@
       "/LED3",
       "/LED1",
       "unconnected-(U1-OUT8-Pad11)",
-      "unconnected-(U1-I_AUD-Pad14)"
+      "unconnected-(U1-I_AUD-Pad14)",
+      "unconnected-(SW1-Pad3)",
+      "unconnected-(SW1-Pad2)",
+      "unconnected-(SW2-Pad3)",
+      "unconnected-(SW2-Pad2)",
+      "unconnected-(SW3-Pad3)",
+      "unconnected-(SW3-Pad2)",
+      "unconnected-(SW4-Pad3)",
+      "unconnected-(SW4-Pad2)"
     ],
     "high_contrast_mode": 0,
     "net_color_mode": 1,

@@ -4,4 +4,6 @@
   (lib (name "chip")(type "KiCad")(uri "${KIPRJMOD}/parts/chip_IS31FL3199-QFLS2-TR")(options "")(descr ""))
   (lib (name "indicator_led")(type "KiCad")(uri "${KIPRJMOD}/parts/led_SML-LX0404SIUPGUSB")(options "")(descr ""))
   (lib (name "button-TL3315NF250Q")(type "KiCad")(uri "${KIPRJMOD}/parts/button-TL3315NF250Q")(options "")(descr ""))
+  (lib (name "S7121-42R")(type "KiCad")(uri "${KIPRJMOD}/parts/S7121-42R")(options "")(descr ""))
+  (lib (name "SKSHAAE010")(type "KiCad")(uri "${KIPRJMOD}/parts/SKSHAAE010")(options "")(descr ""))
 )
