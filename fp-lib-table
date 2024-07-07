@@ -6,4 +6,5 @@
   (lib (name "button-TL3315NF250Q")(type "KiCad")(uri "${KIPRJMOD}/parts/button-TL3315NF250Q")(options "")(descr ""))
   (lib (name "S7121-42R")(type "KiCad")(uri "${KIPRJMOD}/parts/S7121-42R")(options "")(descr ""))
   (lib (name "SKSHAAE010")(type "KiCad")(uri "${KIPRJMOD}/parts/SKSHAAE010")(options "")(descr ""))
+  (lib (name "LTW-020ZDCG")(type "KiCad")(uri "${KIPRJMOD}/parts/LTW-020ZDCG")(options "")(descr ""))
 )

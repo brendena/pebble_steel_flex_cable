@@ -4,4 +4,5 @@
   (lib (name "IS31FL3199-QFLS2-TR")(type "KiCad")(uri "${KIPRJMOD}/parts/IS31FL3199-QFLS2-TR/IS31FL3199-QFLS2-TR.kicad_sym")(options "")(descr ""))
   (lib (name "S7121-42R")(type "KiCad")(uri "${KIPRJMOD}/parts/S7121-42R/S7121-42R")(options "")(descr ""))
   (lib (name "SKSHAAE010")(type "KiCad")(uri "${KIPRJMOD}/parts/SKSHAAE010/SKSHAAE010")(options "")(descr ""))
+  (lib (name "LTW-020ZDCG")(type "KiCad")(uri "${KIPRJMOD}/parts/LTW-020ZDCG/LTW-020ZDCG")(options "")(descr ""))
 )

@@ -4863,7 +4863,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:led_SML-LX0404SIUPGUSB"
+		(property "Footprint" "LTW-020ZDCG:LTW-020ZDCG"
 			(at 113.03 58.42 0)
 			(effects
 				(font
@@ -6462,7 +6462,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:led_SML-LX0404SIUPGUSB"
+		(property "Footprint" "LTW-020ZDCG:LTW-020ZDCG"
 			(at 113.03 74.93 0)
 			(effects
 				(font
@@ -8982,7 +8982,7 @@
 				(hide yes)
 			)
 		)
-		(property "Footprint" "footprints:led_SML-LX0404SIUPGUSB"
+		(property "Footprint" "LTW-020ZDCG:LTW-020ZDCG"
 			(at 113.03 66.04 0)
 			(effects
 				(font

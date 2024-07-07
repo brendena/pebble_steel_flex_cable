@@ -3665,7 +3665,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "5v"
 			(at -0.5 1.664 90)
 			(layer "F.Fab")
 			(uuid "e23e88a9-2e40-457e-8f62-5756100a69bb")
@@ -6747,7 +6747,7 @@
 				)
 			)
 		)
-		(property "Value" "~"
+		(property "Value" "GND"
 			(at -0.5 1.664 90)
 			(layer "F.Fab")
 			(uuid "a7dd7bd5-3423-4fc6-a1cc-44cc6cb8b6e3")
@@ -9917,46 +9917,45 @@
 			)
 		)
 	)
-	(footprint "footprints:led_SML-LX0404SIUPGUSB"
+	(footprint "LTW-020ZDCG:LTW-020ZDCG"
 		(layer "B.Cu")
 		(uuid "82263ebb-aeee-4126-9232-9a56ef5e5f67")
-		(at 142 52.25 180)
-		(descr "SML-LX0404SIUPGUSB")
-		(tags "LED")
+		(at 141.17 48.59 180)
 		(property "Reference" "D8"
-			(at -0.31 1.136 0)
+			(at 0 0.5 0)
+			(unlocked yes)
 			(layer "B.SilkS")
-			(hide yes)
-			(uuid "eabe8573-f9ab-4ff4-a99b-8c0a52f585c4")
+			(uuid "8ebce455-b691-4fbf-b086-b0b1e4293491")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
+					(size 1 1)
+					(thickness 0.1)
 				)
 				(justify mirror)
 			)
 		)
 		(property "Value" "LED"
-			(at -0.31 1.136 0)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "e4af9036-b224-4e18-9d7b-8c5aae0c73e1")
+			(at 0.05 -0.85 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "ba8e7288-70d1-4ac3-9d65-9e241151e88a")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
+					(size 1 1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "footprints:led_SML-LX0404SIUPGUSB"
+		(property "Footprint" "LTW-020ZDCG:LTW-020ZDCG"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "062132a3-327f-4ddd-9df7-6be1e3ba0eb3")
+			(uuid "d4e70da9-5ce1-4875-8614-cd189675a1b2")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -9964,12 +9963,13 @@
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "65160eed-3a09-4f58-ab15-9f72549504b9")
+			(uuid "c8bb2017-aae7-403f-a9f7-8eeec9f2b032")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -9977,12 +9977,13 @@
 		)
 		(property "Description" "Light emitting diode"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "06def178-2d18-4982-ae9f-e920be3e235e")
+			(uuid "d6ebe0e7-13af-4b06-b37a-c33ce122d494")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -9993,128 +9994,162 @@
 		(sheetname "Root")
 		(sheetfile "pebble_steel_flex_cable.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 0.5 0.5)
-			(end -0.5 0.5)
+		(fp_rect
+			(start 1.875 -2.975)
+			(end 1.175 -2.625)
 			(stroke
-				(width 0.2)
+				(width 0)
 				(type solid)
 			)
-			(layer "B.Fab")
-			(uuid "999bd087-5c35-4029-8626-960d3e7413a6")
+			(fill solid)
+			(layer "B.Cu")
+			(uuid "adf65232-099f-42ee-96b4-798103d9cb59")
+		)
+		(fp_rect
+			(start 1.475 -3.325)
+			(end 1.175 -2.625)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "B.Cu")
+			(uuid "9e9caa9f-08cb-450c-9092-f79962f8fe33")
+		)
+		(fp_rect
+			(start -1.175 -2.975)
+			(end -1.875 -2.625)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "B.Cu")
+			(uuid "24ae942b-0ec2-4e9c-b96c-c141cf21be37")
+		)
+		(fp_rect
+			(start -1.175 -3.325)
+			(end -1.475 -2.625)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "B.Cu")
+			(uuid "9025b4bf-3566-465c-a3b7-d66c9dc79904")
 		)
 		(fp_line
-			(start 0.5 -0.5)
-			(end 0.5 0.5)
+			(start 1.225 -2.8)
+			(end -1.225 -2.8)
 			(stroke
-				(width 0.2)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
-			(layer "B.Fab")
-			(uuid "0aacf663-f492-428d-8e56-5806074af684")
+			(layer "B.SilkS")
+			(uuid "77f8066e-0a62-4269-9772-49968bb43137")
 		)
-		(fp_line
-			(start -0.5 0.5)
-			(end -0.5 -0.5)
+		(fp_rect
+			(start 1.9 -3.8)
+			(end -1.9 -2.6)
 			(stroke
-				(width 0.2)
-				(type solid)
+				(width 0.05)
+				(type default)
 			)
-			(layer "B.Fab")
-			(uuid "c85d71ec-2d11-4435-8da7-e9e6c2dfad15")
+			(fill none)
+			(layer "B.SilkS")
+			(uuid "2c5f4068-16f3-476c-a80f-0ab669f25623")
 		)
-		(fp_line
-			(start -0.5 -0.5)
-			(end 0.5 -0.5)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
+		(fp_text user "${REFERENCE}"
+			(at 10.4 -0.75 0)
+			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "1352a544-77ef-4055-9ef7-4afb4cdc1cbc")
+			(uuid "4146d1d0-9404-47ab-a016-294f7f651e3f")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
 		)
 		(pad "1" smd rect
-			(at 0.425 0.425 90)
-			(size 0.45 0.45)
+			(at -1.55 -2.8 180)
+			(size 0.6215 0.3185)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 28 "/LED1")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "20536be9-6dc6-4255-8223-e9f81f8c34d3")
+			(thermal_bridge_angle 45)
+			(uuid "dd8d472c-b077-41ec-90ea-99eb308c7afa")
 		)
 		(pad "2" smd rect
-			(at 0.425 -0.425 90)
-			(size 0.45 0.45)
+			(at 1.55 -2.8 180)
+			(size 0.5715 0.2935)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 6 "+3.3V")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "504d1cf6-46c7-48d5-9913-b20f6b389748")
+			(thermal_bridge_angle 45)
+			(uuid "2bef96a8-2a59-4eb0-ade3-651bfc6eb62c")
 		)
-		(pad "3" smd rect
-			(at -0.425 -0.425 90)
-			(size 0.45 0.45)
-			(layers "B.Cu" "B.Paste" "B.Mask")
-			(uuid "0bf13e4c-a572-4b0a-886e-37cdc917c081")
+		(group ""
+			(uuid "0e927d59-435e-43f3-ae44-f55021219c0b")
+			(members "9e9caa9f-08cb-450c-9092-f79962f8fe33" "adf65232-099f-42ee-96b4-798103d9cb59")
 		)
-		(pad "4" smd rect
-			(at -0.425 0.425 90)
-			(size 0.45 0.45)
-			(layers "B.Cu" "B.Paste" "B.Mask")
-			(uuid "4798d789-cacb-4ff4-aa40-6b8260a07124")
+		(group ""
+			(uuid "76356d94-02ce-43ba-9c40-68938360b54d")
+			(members "24ae942b-0ec2-4e9c-b96c-c141cf21be37" "9025b4bf-3566-465c-a3b7-d66c9dc79904"
+				"dd8d472c-b077-41ec-90ea-99eb308c7afa"
+			)
 		)
-		(model "SML-LX0404SIUPGUSB.stp"
-			(offset
-				(xyz 0 0 0.1299999933)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -180 0 0)
-			)
+		(group ""
+			(uuid "7aba0721-63be-453a-90d6-08170518ffa1")
+			(members "0e927d59-435e-43f3-ae44-f55021219c0b" "2bef96a8-2a59-4eb0-ade3-651bfc6eb62c")
+		)
+		(group ""
+			(uuid "e29d80e2-2749-4413-9421-b61684a35976")
+			(members "76356d94-02ce-43ba-9c40-68938360b54d")
 		)
 	)
-	(footprint "footprints:led_SML-LX0404SIUPGUSB"
+	(footprint "LTW-020ZDCG:LTW-020ZDCG"
 		(layer "B.Cu")
 		(uuid "d435b9eb-254e-41c4-a073-ed012bbf43d6")
-		(at 127.75 52.25 180)
-		(descr "SML-LX0404SIUPGUSB")
-		(tags "LED")
+		(at 127.27 48.59 180)
 		(property "Reference" "D6"
-			(at -0.31 1.136 0)
+			(at 0 0.5 0)
+			(unlocked yes)
 			(layer "B.SilkS")
-			(hide yes)
-			(uuid "d7ae587b-1e88-4211-b20f-c4ac62c26416")
+			(uuid "3a5054ee-5fc3-45ba-802f-2246e304e63c")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
+					(size 1 1)
+					(thickness 0.1)
 				)
 				(justify mirror)
 			)
 		)
 		(property "Value" "LED"
-			(at -0.31 1.136 0)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "03e516c9-61d5-4ef2-9a02-953148b754ca")
+			(at 0.05 -0.85 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "680810ef-33b6-4d43-9dd7-d234feaed020")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
+					(size 1 1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "footprints:led_SML-LX0404SIUPGUSB"
+		(property "Footprint" "LTW-020ZDCG:LTW-020ZDCG"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "1d791ed5-ea96-401b-97d9-f29622432d53")
+			(uuid "d7056e87-4f32-4bf9-9c62-26a7d2e58671")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -10122,12 +10157,13 @@
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "ef01b4c0-e006-448a-a36b-103870ba5497")
+			(uuid "ae67efbe-e9bb-49d5-84f2-62ff58c53227")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -10135,12 +10171,13 @@
 		)
 		(property "Description" "Light emitting diode"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "fd4ffb39-4f00-47f5-8920-cbd36fcf17a2")
+			(uuid "5a287984-ecb6-45e0-9311-8cb92049c257")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -10151,128 +10188,162 @@
 		(sheetname "Root")
 		(sheetfile "pebble_steel_flex_cable.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 0.5 0.5)
-			(end -0.5 0.5)
+		(fp_rect
+			(start 1.875 -2.975)
+			(end 1.175 -2.625)
 			(stroke
-				(width 0.2)
+				(width 0)
 				(type solid)
 			)
-			(layer "B.Fab")
-			(uuid "afd0e901-db4c-4958-bbd0-f3f48034110c")
+			(fill solid)
+			(layer "B.Cu")
+			(uuid "8ce483f7-5e61-4c2a-8b34-5d34cddfec42")
+		)
+		(fp_rect
+			(start 1.475 -3.325)
+			(end 1.175 -2.625)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "B.Cu")
+			(uuid "04f8a27a-2d4e-4019-bd78-53abffacebcd")
+		)
+		(fp_rect
+			(start -1.175 -2.975)
+			(end -1.875 -2.625)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "B.Cu")
+			(uuid "a30149c8-2938-415c-a395-3aa394cb855a")
+		)
+		(fp_rect
+			(start -1.175 -3.325)
+			(end -1.475 -2.625)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "B.Cu")
+			(uuid "7ebc364b-bc69-4cb5-b41a-8350b3e89fbc")
 		)
 		(fp_line
-			(start 0.5 -0.5)
-			(end 0.5 0.5)
+			(start 1.225 -2.8)
+			(end -1.225 -2.8)
 			(stroke
-				(width 0.2)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
-			(layer "B.Fab")
-			(uuid "d4a83be2-aff7-44e0-839e-d7a6ce28efc0")
+			(layer "B.SilkS")
+			(uuid "8a1166d4-9690-4a60-b1d0-c82901e40d34")
 		)
-		(fp_line
-			(start -0.5 0.5)
-			(end -0.5 -0.5)
+		(fp_rect
+			(start 1.9 -3.8)
+			(end -1.9 -2.6)
 			(stroke
-				(width 0.2)
-				(type solid)
+				(width 0.05)
+				(type default)
 			)
-			(layer "B.Fab")
-			(uuid "5b3d67d6-f9b7-48ea-816d-d1504ae8dbd0")
+			(fill none)
+			(layer "B.SilkS")
+			(uuid "e40d3e00-13d6-4006-b1d5-3a3a8d28483d")
 		)
-		(fp_line
-			(start -0.5 -0.5)
-			(end 0.5 -0.5)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
+		(fp_text user "${REFERENCE}"
+			(at 10.4 -0.75 0)
+			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "f5d975ca-d85b-47b7-92d4-9acc01e84efa")
+			(uuid "d37f169a-b68f-4a3d-a835-50fbafa8317d")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
 		)
 		(pad "1" smd rect
-			(at 0.425 0.425 90)
-			(size 0.45 0.45)
+			(at -1.55 -2.8 180)
+			(size 0.6215 0.3185)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 27 "/LED3")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "8697726f-a540-445b-949e-3a1d8d2035a5")
+			(thermal_bridge_angle 45)
+			(uuid "be152333-16cf-4e88-88d0-247df1f1e4a6")
 		)
 		(pad "2" smd rect
-			(at 0.425 -0.425 90)
-			(size 0.45 0.45)
+			(at 1.55 -2.8 180)
+			(size 0.5715 0.2935)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 6 "+3.3V")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "24f1354c-8c05-4b1e-ae4a-71f16e836877")
+			(thermal_bridge_angle 45)
+			(uuid "65ef1940-2dae-46f0-b0be-6c50d5b6d122")
 		)
-		(pad "3" smd rect
-			(at -0.425 -0.425 90)
-			(size 0.45 0.45)
-			(layers "B.Cu" "B.Paste" "B.Mask")
-			(uuid "2389dce8-43b7-488f-b159-81cda5bd2f53")
+		(group ""
+			(uuid "908d7152-6823-40eb-b98d-c0d0a4dac18b")
+			(members "04f8a27a-2d4e-4019-bd78-53abffacebcd" "8ce483f7-5e61-4c2a-8b34-5d34cddfec42")
 		)
-		(pad "4" smd rect
-			(at -0.425 0.425 90)
-			(size 0.45 0.45)
-			(layers "B.Cu" "B.Paste" "B.Mask")
-			(uuid "5152057a-c95f-4ecb-91f8-58c962120224")
+		(group ""
+			(uuid "5292b958-2f1a-4c16-9c90-3e867295ba53")
+			(members "65ef1940-2dae-46f0-b0be-6c50d5b6d122" "908d7152-6823-40eb-b98d-c0d0a4dac18b")
 		)
-		(model "SML-LX0404SIUPGUSB.stp"
-			(offset
-				(xyz 0 0 0.1299999933)
+		(group ""
+			(uuid "ad5e4f33-5d21-4f0f-a6c1-270fc0d3cec1")
+			(members "7ebc364b-bc69-4cb5-b41a-8350b3e89fbc" "a30149c8-2938-415c-a395-3aa394cb855a"
+				"be152333-16cf-4e88-88d0-247df1f1e4a6"
 			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -180 0 0)
-			)
+		)
+		(group ""
+			(uuid "ca1cfc56-f2d0-4eb4-a48e-a846a64d7a6f")
+			(members "ad5e4f33-5d21-4f0f-a6c1-270fc0d3cec1")
 		)
 	)
-	(footprint "footprints:led_SML-LX0404SIUPGUSB"
+	(footprint "LTW-020ZDCG:LTW-020ZDCG"
 		(layer "B.Cu")
 		(uuid "ef425e45-565b-46e0-b41c-e2a97c7c06b3")
-		(at 134.75 52.25 180)
-		(descr "SML-LX0404SIUPGUSB")
-		(tags "LED")
+		(at 134.63 48.55 180)
 		(property "Reference" "D7"
-			(at -0.31 1.136 0)
+			(at 0 0.5 0)
+			(unlocked yes)
 			(layer "B.SilkS")
-			(hide yes)
-			(uuid "84b5b34e-a727-446d-aa39-c732a08f4af6")
+			(uuid "6639a10b-9e4f-4ff9-9f5c-6172a97ef03c")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
+					(size 1 1)
+					(thickness 0.1)
 				)
 				(justify mirror)
 			)
 		)
 		(property "Value" "LED"
-			(at -0.31 1.136 0)
-			(layer "B.SilkS")
-			(hide yes)
-			(uuid "9e99e9ce-3e75-4fd5-974d-68ca546e5cd6")
+			(at 0.05 -0.85 0)
+			(unlocked yes)
+			(layer "B.Fab")
+			(uuid "b04bf8c9-4281-4c7d-adfe-7f0376e614fa")
 			(effects
 				(font
-					(size 1.27 1.27)
-					(thickness 0.254)
+					(size 1 1)
+					(thickness 0.15)
 				)
 				(justify mirror)
 			)
 		)
-		(property "Footprint" "footprints:led_SML-LX0404SIUPGUSB"
+		(property "Footprint" "LTW-020ZDCG:LTW-020ZDCG"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "c2de4edc-f1be-4d63-817e-ac01f919b487")
+			(uuid "7a804904-7592-404e-ac15-de0c8d5cbba7")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -10280,12 +10351,13 @@
 		)
 		(property "Datasheet" ""
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "e21981b5-38b2-42ac-93ed-f7811de7ca5d")
+			(uuid "d9c10d63-41d5-4165-a731-d3e79a6d45c8")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -10293,12 +10365,13 @@
 		)
 		(property "Description" "Light emitting diode"
 			(at 0 0 0)
+			(unlocked yes)
 			(layer "B.Fab")
 			(hide yes)
-			(uuid "b1ac2668-d7c8-4fd1-986f-7302aab66f39")
+			(uuid "5ec2099a-d50a-4e39-ad4e-70f9703b3798")
 			(effects
 				(font
-					(size 1.27 1.27)
+					(size 1 1)
 					(thickness 0.15)
 				)
 				(justify mirror)
@@ -10309,86 +10382,121 @@
 		(sheetname "Root")
 		(sheetfile "pebble_steel_flex_cable.kicad_sch")
 		(attr smd)
-		(fp_line
-			(start 0.5 0.5)
-			(end -0.5 0.5)
+		(fp_rect
+			(start 1.875 -2.975)
+			(end 1.175 -2.625)
 			(stroke
-				(width 0.2)
+				(width 0)
 				(type solid)
 			)
-			(layer "B.Fab")
-			(uuid "8c7599f3-b19b-4d41-ba3d-259af8bf4a37")
+			(fill solid)
+			(layer "B.Cu")
+			(uuid "410641b6-528b-4695-b9d4-f50aa6d264c1")
+		)
+		(fp_rect
+			(start 1.475 -3.325)
+			(end 1.175 -2.625)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "B.Cu")
+			(uuid "8a0d55ed-3208-4a18-827d-0e9d1a39e81a")
+		)
+		(fp_rect
+			(start -1.175 -2.975)
+			(end -1.875 -2.625)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "B.Cu")
+			(uuid "7b3af783-3b35-444a-a60c-0b8b7ceea5e5")
+		)
+		(fp_rect
+			(start -1.175 -3.325)
+			(end -1.475 -2.625)
+			(stroke
+				(width 0)
+				(type solid)
+			)
+			(fill solid)
+			(layer "B.Cu")
+			(uuid "f55626e0-2b1f-40d3-8964-32bb54745583")
 		)
 		(fp_line
-			(start 0.5 -0.5)
-			(end 0.5 0.5)
+			(start 1.225 -2.8)
+			(end -1.225 -2.8)
 			(stroke
-				(width 0.2)
-				(type solid)
+				(width 0.1)
+				(type default)
 			)
-			(layer "B.Fab")
-			(uuid "514db050-9f42-4c42-a451-652f9a4c512e")
+			(layer "B.SilkS")
+			(uuid "dd9638d6-2642-438a-8e69-42b060633e2c")
 		)
-		(fp_line
-			(start -0.5 0.5)
-			(end -0.5 -0.5)
+		(fp_rect
+			(start 1.9 -3.8)
+			(end -1.9 -2.6)
 			(stroke
-				(width 0.2)
-				(type solid)
+				(width 0.05)
+				(type default)
 			)
-			(layer "B.Fab")
-			(uuid "8c5cfc67-6fcb-4b98-b153-2e9ff4ac0840")
+			(fill none)
+			(layer "B.SilkS")
+			(uuid "2278e61b-e9bd-4b29-9f4b-a0f0e01d092b")
 		)
-		(fp_line
-			(start -0.5 -0.5)
-			(end 0.5 -0.5)
-			(stroke
-				(width 0.2)
-				(type solid)
-			)
+		(fp_text user "${REFERENCE}"
+			(at 10.4 -0.75 0)
+			(unlocked yes)
 			(layer "B.Fab")
-			(uuid "4e33ae08-3085-4ef0-8009-905932f3bbef")
+			(uuid "a6ef9095-0511-44f3-82f5-2330b3078cff")
+			(effects
+				(font
+					(size 1 1)
+					(thickness 0.15)
+				)
+				(justify mirror)
+			)
 		)
 		(pad "1" smd rect
-			(at 0.425 0.425 90)
-			(size 0.45 0.45)
+			(at -1.55 -2.8 180)
+			(size 0.6215 0.3185)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 26 "/LED2")
 			(pinfunction "K")
 			(pintype "passive")
-			(uuid "46b7f217-298c-4f3b-8f4b-c3cddd8c8bee")
+			(thermal_bridge_angle 45)
+			(uuid "8722a337-205f-460c-8922-9015bfb01f93")
 		)
 		(pad "2" smd rect
-			(at 0.425 -0.425 90)
-			(size 0.45 0.45)
+			(at 1.55 -2.8 180)
+			(size 0.5715 0.2935)
 			(layers "B.Cu" "B.Paste" "B.Mask")
 			(net 6 "+3.3V")
 			(pinfunction "A")
 			(pintype "passive")
-			(uuid "141f14b9-e7bf-4b3b-a3ed-3a876bdc27fa")
+			(thermal_bridge_angle 45)
+			(uuid "d44f7b69-1d2c-4d00-b924-d1315eb5c0e2")
 		)
-		(pad "3" smd rect
-			(at -0.425 -0.425 90)
-			(size 0.45 0.45)
-			(layers "B.Cu" "B.Paste" "B.Mask")
-			(uuid "fd29ce1b-eef3-4a5e-b15e-b25189b6a570")
+		(group ""
+			(uuid "147ebc02-9083-4a7e-9730-9a0cfd8481b5")
+			(members "410641b6-528b-4695-b9d4-f50aa6d264c1" "8a0d55ed-3208-4a18-827d-0e9d1a39e81a")
 		)
-		(pad "4" smd rect
-			(at -0.425 0.425 90)
-			(size 0.45 0.45)
-			(layers "B.Cu" "B.Paste" "B.Mask")
-			(uuid "2a2a1195-fa12-467d-abe2-124c20569f21")
+		(group ""
+			(uuid "96638ef8-dc6e-4ea5-a2a7-f97824c7c665")
+			(members "7b3af783-3b35-444a-a60c-0b8b7ceea5e5" "8722a337-205f-460c-8922-9015bfb01f93"
+				"f55626e0-2b1f-40d3-8964-32bb54745583"
+			)
 		)
-		(model "SML-LX0404SIUPGUSB.stp"
-			(offset
-				(xyz 0 0 0.1299999933)
-			)
-			(scale
-				(xyz 1 1 1)
-			)
-			(rotate
-				(xyz -180 0 0)
-			)
+		(group ""
+			(uuid "adadb6b6-d2c7-4c2c-9cca-a6fbfdefac0a")
+			(members "147ebc02-9083-4a7e-9730-9a0cfd8481b5" "d44f7b69-1d2c-4d00-b924-d1315eb5c0e2")
+		)
+		(group ""
+			(uuid "c174249f-0189-4a29-9494-8c8fa36727a9")
+			(members "96638ef8-dc6e-4ea5-a2a7-f97824c7c665")
 		)
 	)
 	(gr_line
