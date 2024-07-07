@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP SML-LX0404SIUPGUSB
+D LED,0404,Surface Mount,QuasarBrite Lumex SML-LX0404SIUPGUSB RGB LED, 465 (Blue) nm, 518 (Green) nm, 632 (Red) nm 0404 Clear, Rectangle Lens SMD package
+K
+F https://datasheet.datasheetarchive.com/originals/distributors/Datasheets-DGA13/1153815.pdf
+$ENDCMP
+#
+#End Doc Library

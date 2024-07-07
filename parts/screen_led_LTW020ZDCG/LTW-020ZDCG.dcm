@@ -1,0 +1,9 @@
+EESchema-DOCLIB  Version 2.0
+#
+$CMP LTW-020ZDCG
+D Standard LEDs - SMD White SMD LED 860-1440mcd @ 20mA
+K
+F https://optoelectronics.liteon.com/upload/download/DS22-2006-118/LTW-020ZDCG_DS_150114.pdf
+$ENDCMP
+#
+#End Doc Library
